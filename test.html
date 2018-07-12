@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s, height 4s;
+}
+
+disv:hover {
+    width: 300px;
+    height: 300px;
+}
+
+
+
+.nav{
+	width: 50%;
+	background-color:blue;
+	color:#fff;
+    height: 40%;
+    -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s, height 4s;
+	z-index:1;
+}
+
+.nav:hover {
+width: 300px;
+}
+
+a{
+color:#fff;
+}
+
+.test{
+background-color:green;
+width:150px;
+    -webkit-transition: width 2s, top 4s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s, top 4s;
+}
+
+.test:hover{
+width: 300px;
+top:10px;
+}
+
+</style>
+</head>
+<body>
+
+<p><b>Note:</b> This example does not work in Internet Explorer 9 and earlier versions.</p>
+
+<div>
+<li class="nav">
+<a href="#">Home<a>
+</li>
+<li class="nav">
+<a href="#">AboutUs<a>
+</li>
+</div>
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+
+
+
+
+<p class="test">Hover over the div element above, to see the transition effect.</p>
+
+</body>
+
+</html>
