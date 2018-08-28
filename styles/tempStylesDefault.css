@@ -52,7 +52,7 @@ margin-bottom:1px;
     -webkit-animation-duration: 0.3s;
     animation-name: myMoveFirst;
     animation-duration: 0.3s;
-	//animation-delay: .5s;
+	/* animation-delay: .5s; */
 	position:absolute;
 	width:100%;
 	top:0;
@@ -213,7 +213,7 @@ border-bottom-left-radius:6px;
   left:42%;
   display:none;
   font-weight:bold;
-  //width: 100%;
+  /* width: 100%; */
   text-align: center;
   background-color:#20b2aa;
 }
@@ -272,7 +272,7 @@ margin:0 auto;
 
 .images:hover{
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
   animation-name: fade;
 }
 

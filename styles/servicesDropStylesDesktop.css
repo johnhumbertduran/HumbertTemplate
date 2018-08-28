@@ -49,7 +49,7 @@ height:60px;
     -webkit-animation-duration: 0.3s;
     animation-name: myMoveFirst;
     animation-duration: 0.3s;
-	//animation-delay: .5s;
+	/*animation-delay: .5s;*/
 	position:absolute;
 	width:100%;
 	top:0;
@@ -206,7 +206,7 @@ padding:10px;
 
 .images{
     margin: auto;
-    //float: left;
+    /* float: left; */
     width: 25%;
 border:1px solid black;
 display:inline-block;
@@ -214,7 +214,7 @@ display:inline-block;
 
 .images:hover{
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
   animation-name: fade;
 }
 

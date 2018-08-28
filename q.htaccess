@@ -1,13 +1,5 @@
-<<<<<<< HEAD
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME}! -f
 RewriteRule ^([^.]+)$ $1.php [NC,L]
 RewriteCond %{REQUEST_FILENAME}! -f
 RewriteRule ^([^.]+)$ $1.html [NC,L]
-=======
-RewriteEngine On
-RewriteCond %{REQUEST_FILENAME}! -f
-RewriteRule ^([^.]+)$ $1.php [NC,L]
-RewriteCond %{REQUEST_FILENAME}! -f
-RewriteRule ^([^.]+)$ $1.html [NC,L]
->>>>>>> 55d169d85567ff699a7bfaef9bee702691948048
